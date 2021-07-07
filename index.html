@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <title>معلومات لادخال</title>
+
+    <style>
+        div.ui.container  {
+
+            direction:rtl;
+            
+        }
+    </style>
+</head>
+<body>
+    <br><br>
+    <div class="ui raised very padded text container segment ">
+        <h2 class="ui header">معلومات المعمل اليومية</h2>
+        <div class="ui form">
+            <div class="fields">
+              <div class="field">
+                <label>المبيعات</label>
+                <input id='sales' type="number" placeholder="المبيعات" >
+              </div>
+              <div class="field">
+                <label>الكلف </label>
+                <input type="number" placeholder="الكلف" id='cost'>
+              </div>
+              <div class="field">
+                <label>  (1-4) رضا الزبون</label>
+                <input type="number" placeholder="رضا الزبون" id='satisfied'>
+              </div>
+
+              <div class="field">
+                <label>(1-4) مرونة الخدمات</label>
+                <input id='flexible' type="number" placeholder="مرونة الخدمات  لاحتساجات الزبون">
+              </div>
+
+              <div class="field">
+                <label>(1-4) جودة اداء التوصيل</label>
+                <input type="number" 
+                    placeholder="جودة اداء التوصيل"
+                    id='jwda'
+                >
+              </div>
+
+            
+            </div>
+
+            <div class="fields">
+                <div class="field">
+                  <label> (0-1) استغلال القدرة</label>
+                  <input type="number" placeholder="استغلال القدرة" id='estglal'>
+                </div>
+                <div class="field">
+                  <label>المخزون اليومي </label>
+                  <input type="number" placeholder="المخزون اليومي" id='mkhzoon'>
+                </div>
+                <div class="field">
+                  <label>نسبة المخلفات  </label>
+                  <input type="number" placeholder="نسبة المخلفات" id='mkhalfat'>
+                </div>
+                <div class="field">
+                  <label> (0-1) معدل زيادة الربح</label>
+                  <input
+                        type="number" 
+                        placeholder="معدل زيادة الربح"
+                        id='zyada'
+                        >
+                </div>
+  
+                <div class="field">
+                  <label>مشاركة المعلومات</label>
+                  <input 
+                  type="number" 
+                  placeholder="مشاركة المعلومات"
+                  id='share'
+                  >
+                </div>
+  
+            
+  
+  
+              </div>
+            <div class='fields'>
+
+              <div class="field">
+                <label>فترة الاستجابة </label>
+                <input
+                id='fatra'
+                 type="number" 
+                 placeholder="فترة لاستجابة للمنتوجات الجديدة">
+              </div>
+
+              <div class="field">
+                <label>SCRT (1-2)</label>
+                <input type="number" placeholder="SCRT" id='SCRT'>
+              </div>
+
+              <div class="field">
+                <label>معدل التسليم</label>
+                <input 
+                type="number" 
+                id='taslem'
+                placeholder="معدل لتسليم في الوقت المحدد">
+              </div>
+              <div class="field">
+                <label>المرونة</label>
+                <input 
+                type="number"
+                id='mrona'
+                 placeholder="المرونة">
+              </div>
+            
+              <div class="field">
+                <label>الجودة</label>
+                <input 
+                type="number"
+                id='eljwda'
+                 placeholder="الجودة">
+              </div>
+            </div>
+            <br /> <br />
+              <div id='submit' class="ui submit button teal">خزن</div>
+          </div>
+
+      </div>
+
+
+      <script src="/app.js"></script>#
+      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+</body>
+</html>
